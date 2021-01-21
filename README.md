@@ -18,3 +18,15 @@
 
 To view the notebook, data, and webviewer online, visit <https://commons.lymemind.org/>. This repository contains all the source code and de-identified data for the project.
 
+### [LM2_all_figures.ipynb](./LM2_all_figures.ipynb)
+
+This is a jupyter notebook which was used to generate all of the LM2 figures. It was run with the **original data** which is not publicly available, please contact us if you'd like to access to that data. Alternatively de-identified version of that same data has been provided and can be used instead to an extent.
+
+### [Data](./data)
+
+This is de-identified data which can be used to re-produce our analysis or find additional things about our cohort as a whole without per-patient specificity.
+
+### [Webview](./webview)
+
+This interactive viewer enables you to explore the <a href="https://www.lymemind.org/">LymeMIND2</a> patient cohort in gene expression space. Each point on the map corresponds to a participant where the position of each participant was computed based on a UMAP projection of their PMBC mRNA RNA-seq expression vector. Enrichment analysis is applied to explore enriched terms for each cluster. You can explore these enriched terms by clicking on a cluster to review the table below. These enrichment results were computed by performing differential expression between clusters and using the most significantly up and down regulated genes to query with <a href="http://maayanlab.cloud/Enrichr/">Enrichr</a>. The <a href="https://maayanlab.github.io/react-scatter-board/">react scatter board widget</a> is used to render this plot.
+
