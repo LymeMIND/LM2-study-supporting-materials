@@ -14,3 +14,7 @@
 <sup>+</sup> Contributed equally
 </small>
 
+## Outline
+
+To view the notebook, data, and webviewer online, visit <https://commons.lymemind.org/>. This repository contains all the source code and de-identified data for the project.
+
